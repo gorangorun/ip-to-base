@@ -1,0 +1,35 @@
+{
+  "name": "ip-to-base",
+  "version": "0.0.1",
+  "description": "Convert IP address to its binary/decimal/hexadecimal/octal representation and vise versa",
+  "main": "src/ip-to-base.js",
+  "keywords": [
+    "ip-to-binary",
+    "ip-to-decimal",
+    "ip-to-hexadecimal",
+    "ip-to-octal",
+    "binary-to-ip",
+    "decimal-to-ip",
+    "hexadecimal-to-ip",
+    "octal-to-ip"
+  ],
+  "author": "Goran <gorang.pub@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://tools.base64decode.net/libs/ip-to-base",
+  "bugs": "https://github.com/gorangorun/ip-to-base/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gorangorun/ip-to-base.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "base-numeral-system": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
